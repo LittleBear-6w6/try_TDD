@@ -1,6 +1,6 @@
 name: TDD JS Sample CI
 
-on:[push]
+on: [push]
 
 jobs:
   test:
