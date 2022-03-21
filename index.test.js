@@ -1,6 +1,8 @@
-const { TestWatcher } = require('jest')
-const add = require('./index')
+const fizzBuzz = require('./index');
 
-test('1と2を渡したとき、３を返す',()=>{
-    expect(add(1,2)).toBe(3);
+test("1を渡すと文字列'1'を返す",()=>{
+    // 準備(Arrange)
+    // 実行(Act)
+    // 検証(Assertion)
+    expect(fizzBuzz(1)).toBe('1');
 });

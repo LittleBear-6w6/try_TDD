@@ -1,5 +1,5 @@
-function add(a,b){
-    return a + b;
+function fizzBuzz(num){
+    return '1';
 }
 
-module.exports = add
+module.exports = fizzBuzz;
