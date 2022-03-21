@@ -24,3 +24,9 @@ describe('5の倍数を渡すと「Buzz」を返す',()=>{
         expect(fizzBuzz(5)).toBe('Buzz');
     });
 });
+
+describe('3と5の両方の倍数を渡すと「FizzBuzz」を返す',()=>{
+    test("15を渡すと文字列「FizzBuzz」を返す",()=>{
+        expect(fizzBuzz(15)).toBe('FizzBuzz');
+    });
+});
