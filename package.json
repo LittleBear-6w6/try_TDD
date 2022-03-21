@@ -1,0 +1,23 @@
+{
+  "name": "try_tdd",
+  "version": "1.0.0",
+  "description": "Software Design 2022年3月号　第2特集　そろそろはじめるテスト駆動開発のハンズオン",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittleBear-6w6/try_TDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LittleBear-6w6/try_TDD/issues"
+  },
+  "homepage": "https://github.com/LittleBear-6w6/try_TDD#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
